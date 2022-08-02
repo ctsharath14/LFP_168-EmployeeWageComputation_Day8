@@ -30,8 +30,7 @@ public class EmployeeWageUsingClassMethodAndVariable {
         }
 
         double salary = totalWorkingHour * WAGE_PER_HOUR;
-        System.out
-                .println("Employee monthly wage : $" + salary + " USD (total working hour : " + totalWorkingHour + ")");
+        System.out.println("Employee monthly wage : $" + salary + " USD (total working hour : " + totalWorkingHour + ")");
         System.out.println("Total working day : " + day);
         return salary;
     }
